@@ -3,6 +3,7 @@ package com.mpitu.adventofcodesolution.service;
 import com.mpitu.adventofcodesolution.model.Solution;
 import com.mpitu.adventofcodesolution.solutions.year_2015.SolutionDelegate2015;
 import com.mpitu.adventofcodesolution.solutions.year_2016.SolutionDelegate2016;
+import com.mpitu.adventofcodesolution.solutions.year_2024.SolutionDelegate2024;
 import com.mpitu.adventofcodesolution.util.FileHandler;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +18,7 @@ public class AppService {
         switch(year) {
             case 2015: return SolutionDelegate2015.getAnswer(day, parsedLines);
             case 2016: return SolutionDelegate2016.getAnswer(day, parsedLines);
+            case 2024: return SolutionDelegate2024.getAnswer(day, parsedLines);
             default: return Solution.builder().build();
         }
     }
