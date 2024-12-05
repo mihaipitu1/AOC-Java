@@ -1,10 +1,7 @@
 package com.mpitu.adventofcodesolution.solutions.year_2024;
 
 import com.mpitu.adventofcodesolution.model.Solution;
-import com.mpitu.adventofcodesolution.solutions.year_2024.days.Day1Solution;
-import com.mpitu.adventofcodesolution.solutions.year_2024.days.Day2Solution;
-import com.mpitu.adventofcodesolution.solutions.year_2024.days.Day3Solution;
-import com.mpitu.adventofcodesolution.solutions.year_2024.days.Day4Solution;
+import com.mpitu.adventofcodesolution.solutions.year_2024.days.*;
 import com.mpitu.adventofcodesolution.util.ISolution;
 
 import java.util.List;
@@ -21,9 +18,9 @@ public class SolutionDelegate2024 {
                 break;
             case 4: solution = new Day4Solution();
                 break;
-            case 5: solution = new Day1Solution();
+            case 5: solution = new Day5Solution();
                 break;
-            case 6: solution = new Day1Solution();
+            case 6: solution = new Day6Solution();
                 break;
             case 7: solution = new Day1Solution();
                 break;
